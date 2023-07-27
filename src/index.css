@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-btn-secondary{
+  @apply text-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811] border-[#FF3811]
+}
