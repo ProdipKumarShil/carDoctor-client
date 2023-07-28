@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+}
 
 .my-btn-secondary{
   @apply text-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811] border-[#FF3811] rounded
