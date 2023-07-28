@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 .my-btn-secondary{
-  @apply text-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811] border-[#FF3811]
+  @apply text-[#FF3811] hover:bg-[#FF3811] hover:border-[#FF3811] border-[#FF3811] rounded
+}
+.my-btn-primary{
+  @apply bg-[#FF3811] text-white hover:bg-[#c83011] hover:border-[#c83011] border-[#FF3811] rounded
+}
+.my-btn-tertiary{
+  @apply border-white text-white bg-opacity-0 hover:bg-[#ff3811] hover:border-[#ff3811] rounded
 }
